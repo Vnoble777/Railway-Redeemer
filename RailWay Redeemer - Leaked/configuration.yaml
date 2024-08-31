@@ -1,0 +1,31 @@
+LicenseKey: ""
+Threads: 1 # Amount of threads to run
+
+Redeeming:
+  SleepAfterRedeem: 2 # Sleep Seconds after Each Redeem | Put 0 To Disable This Feature.
+  VccUsage: 4 # VCC Repeats
+  BillingINFO:
+    Address: "P.O. Box 22575, Muharraq"
+    State: "Santarém"
+    City: "São Miguel Do Rio Torto"
+    Postal: "1050-111"
+    Country: "PT" # Usually 2 letters dm me for help
+    CardHolderName: "Joseph Dbratt"
+
+ProxySetting:
+  UseProxy: False
+  Proxy: ""
+
+DiscordBotLogging:
+  UseBot: True # Put True to enable this feature
+  BotToken: ""
+  LogChannelID: "1271162863360413796"
+  ServiceName: "@SwapBoosts"
+
+TerminalLogging:
+  LoggingMode: "all" # all/important/none | all - prints all the logs of redeemer | important - prints only important messages | none - prints nothing just shows the counts of redeems done.
+  ServiceName: "@SwapBoosts" # Service name will be printed in the terminal and also in the command title
+
+SilentFeatures:
+  CheckTokens: False # Checks token before redeeming
+  DatedOutput: True # Puts dated output folders
