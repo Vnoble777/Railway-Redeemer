@@ -45,8 +45,8 @@ def AddVCC(vcc: str, Token: str) -> bool:
     )
     if parseConfig()["ProxySetting"]["UseProxy"]:
         client.proxies = {
-            "http": f"http://" + parseConfig["ProxySetting"]["Proxy"],
-            "https": f"http://" + parseConfig["ProxySetting"]["Proxy"],
+            "http": f"http://" + parseConfig()["ProxySetting"]["Proxy"],
+            "https": f"http://" + parseConfig()["ProxySetting"]["Proxy"],
         }
     else:
         client.proxies = None
