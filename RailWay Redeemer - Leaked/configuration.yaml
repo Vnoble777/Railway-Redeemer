@@ -17,9 +17,9 @@ ProxySetting:
   Proxy: ""
 
 DiscordBotLogging:
-  UseBot: False # Put True to enable this feature
-  BotToken: ""
-  LogChannelID: "1271162863360413796"
+  UseBot: True # Put True to enable this feature
+  BotToken: "MTI4MDAyMjQyMzE0Nzc3Mzk3Mw.GRq0NB.u97hL6QiNFjAzQISaCjcnE-FVH7WNbD5ivVXrY"
+  LogChannelID: "1279378774340665486"
   ServiceName: "@SwapBoosts"
 
 TerminalLogging:
