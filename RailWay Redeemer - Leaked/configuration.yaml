@@ -17,14 +17,14 @@ ProxySetting:
   Proxy: ""
 
 DiscordBotLogging:
-  UseBot: False # Put True to enable this feature
-  BotToken: ""
+  UseBot: True # Put True to enable this feature
+  BotToken: "MTI4MDAyMjQyMzE0Nzc3Mzk3Mw.Gnfn6T.Fve6S935RUxm-lXTTouR4-daPcWXzL0aG-ZUO0"
   LogChannelID: "1271162863360413796"
-  ServiceName: "@SwapBoosts"
+  ServiceName: "@VnobLe Boosts"
 
 TerminalLogging:
   LoggingMode: "all" # all/important/none | all - prints all the logs of redeemer | important - prints only important messages | none - prints nothing just shows the counts of redeems done.
-  ServiceName: "@SwapBoosts" # Service name will be printed in the terminal and also in the command title
+  ServiceName: "@WetyBoosts" # Service name will be printed in the terminal and also in the command title
 
 SilentFeatures:
   CheckTokens: False # Checks token before redeeming
